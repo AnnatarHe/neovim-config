@@ -1,0 +1,35 @@
+# Lazy.nvim lockfile (optional, can track if you want reproducible builds)
+# lazy-lock.json
+
+# Plugin directory (managed by lazy.nvim)
+.lazy/
+
+# Neovim generated
+*.swp
+*.swo
+*~
+
+# Undo files
+undo/
+
+# Session files
+session/
+
+# Local configuration (for machine-specific settings)
+lua/config/local.lua
+
+# Mason installed tools
+mason/
+
+# Treesitter parsers (auto-installed)
+parser/
+
+# Shada files
+shada/
+
+# Log files
+*.log
+log/
+
+# Claude Code settings
+.claude/
