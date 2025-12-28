@@ -45,4 +45,10 @@ return {
     "wakatime/vim-wakatime",
     event = "VeryLazy",
   },
+
+  -- Shelltime (coding time tracking)
+  {
+    "shelltime/coding-extension-vim",
+    event = "VeryLazy",
+  },
 }
