@@ -3,11 +3,11 @@
 return {
   {
     "nvim-treesitter/nvim-treesitter",
-    version = false,
+    branch = "master", -- main branch is a rewrite without nvim-treesitter.configs
     build = ":TSUpdate",
     event = { "BufReadPost", "BufNewFile" },
     dependencies = {
-      "nvim-treesitter/nvim-treesitter-textobjects",
+      { "nvim-treesitter/nvim-treesitter-textobjects", branch = "master" },
     },
     opts = {
       ensure_installed = {
